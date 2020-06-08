@@ -8,6 +8,7 @@ async function run (argv) {
         'import',
         'user-set-password',
         'version',
+        'user-create'
     ];
 
     const args = arg({
@@ -102,7 +103,9 @@ Commands:
     datasource-list     list datasources
     import              import layers, reports, dashboards
     user-set-password   change user password
+    user-create         create user
     version             show Urungi version
+
 
 To get help for a specific command, run \`cli <command> --help\`
 `;
