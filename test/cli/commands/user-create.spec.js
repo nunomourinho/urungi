@@ -37,10 +37,12 @@ describe('user-create', function () {
 `Create users
 
 Usage:
-    cli user-create <username>
-`;
+    cli user-create <username> 
 
-            console.log(stdout);
+Examples:
+    cli user-create administrator 
+
+`;
 
             expect(stdout).toBe(expectedOutput);
         });
