@@ -40,13 +40,13 @@ Usage:
     cli user-create <username>
 `;
 
-console.log(stdout);
+            console.log(stdout);
 
             expect(stdout).toBe(expectedOutput);
         });
     });
-    
-     describe('with correct arguments', function () {
+
+    describe('with correct arguments', function () {
         beforeAll(async function () {
             const connection = require('../../../server/config/mongoose.js')();
             const User = connection.model('User');
@@ -55,10 +55,9 @@ console.log(stdout);
         });
 
         it('should return 0 and create users', async function () {
-            const exitCode = await cli.run(['user-create', 'AAA' ]);
+            const exitCode = await cli.run(['user-create', 'AAA']);
 
-            expect(exitCode).toBe(0)
-
+            expect(exitCode).toBe(0);
         });
     });
 });
