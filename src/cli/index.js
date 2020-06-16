@@ -104,6 +104,7 @@ Commands:
     datasource-list     list datasources
     import              import layers, reports, dashboards
     user-set-password   change user password
+    user-list           list Urungi users
     version             show Urungi version
 
 To get help for a specific command, run \`cli <command> --help\`
