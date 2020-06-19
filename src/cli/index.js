@@ -7,6 +7,7 @@ async function run (argv) {
         'datasource-list',
         'import',
         'user-set-password',
+        'user-delete',
         'version',
     ];
 
@@ -102,6 +103,7 @@ Commands:
     datasource-list     list datasources
     import              import layers, reports, dashboards
     user-set-password   change user password
+    user-delete         delete Urungi user
     version             show Urungi version
 
 To get help for a specific command, run \`cli <command> --help\`
