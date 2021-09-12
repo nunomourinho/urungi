@@ -7,7 +7,7 @@
 
     function language ($window, gettextCatalog, moment, base) {
         const defaultLanguage = 'en';
-        const availableLanguages = ['en', 'es', 'fr'];
+        const availableLanguages = ['en', 'es', 'pt_PT', 'fr'];
 
         const service = {
             getAvailableLanguages: getAvailableLanguages,

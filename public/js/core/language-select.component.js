@@ -20,6 +20,7 @@
         const languageLabels = {
             en: 'English',
             es: 'Español',
+			pt_PT: 'Português',
             fr: 'Français',
         };
 
